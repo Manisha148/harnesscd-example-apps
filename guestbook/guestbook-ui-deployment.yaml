@@ -20,12 +20,5 @@ spec:
         ports:
         - containerPort: 80
 
-        replicaCount: 1
-image:
-  repository: your-docker-image
-  tag: latest
-  pullPolicy: IfNotPresent
-service:
-  type: ClusterIP
-  port: 80
+   
 
